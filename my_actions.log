@@ -1,0 +1,7 @@
+2026-11-06T07:09:33.730376Z	   10 Query	SET GLOBAL log_output = 'FILE'
+2026-11-06T07:09:49.474311Z	   10 Query	show databases
+2026-11-06T07:09:49.475807Z	   10 Query	show tables
+2026-11-06T07:09:49.478335Z	   10 Query	INSERT INTO users (name, email) VALUES ('Лог-Тест-2', 'logtest2@example.com')
+2026-11-06T07:09:49.490447Z	   10 Query	SELECT * FROM users
+2026-11-06T07:09:49.492129Z	   10 Query	UPDATE users SET name = 'Лог-Обновлён-2' WHERE email = 'logtest2@example.com'
+2026-11-06T07:09:49.522671Z	   10 Query	DELETE FROM users WHERE email = 'logtest2@example.com'
